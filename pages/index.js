@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Container from './components/Container'
-import Welcome from ''
+import Welcome from './components/Welcome'
 
 export default function Home() {
   return (
@@ -12,6 +12,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <Welcome />
+      
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
         
 
