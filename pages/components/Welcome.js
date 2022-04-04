@@ -1,6 +1,6 @@
 import react from "react";
 
-function Welome() {
+function Welcome() {
     return (
         <>
         <h1 className="text-6xl font-bold">
@@ -12,9 +12,10 @@ function Welome() {
         <p className="mt-3 text-2xl">
                 Get started by editing{' '}
                 <code className="rounded-md bg-gray-100 p-3 font-mono text-lg">
-                    pages/index.tsx
+                    pages/index.js
                 </code>
             </p>
             </>
     )
 }
+export default Welcome
